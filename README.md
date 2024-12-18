@@ -1,6 +1,6 @@
 # JSDC 2024 Vite, React, Vitest Demo
 
-This is a demo project for the [JSDC.TW 2024 conference](https://2024.jsdc.tw/) with the topic about [《Exploring VoidZero's Swiss Army Knife for the JS Ecosystem》](https://blog.jsdc.tw/2024/12/14/Codefarmer-vite).
+This is a Vitest demo project for the [JSDC.TW 2024 conference](https://2024.jsdc.tw/) with the topic about [《Exploring VoidZero's Swiss Army Knife for the JS Ecosystem》](https://blog.jsdc.tw/2024/12/14/Codefarmer-vite).
 
 ## Tech Stack
 
