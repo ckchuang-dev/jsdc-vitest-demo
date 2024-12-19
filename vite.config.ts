@@ -11,7 +11,7 @@ export default defineConfig({
     },
   },
   test: {
-    environment: 'happy-dom',
+    environment: 'happy-dom', // or "jsdom" for component testing
     globals: true,
     setupFiles: ['./vitest.setup.ts'],
     include: ['src/**/*.test.{ts,tsx}'],
