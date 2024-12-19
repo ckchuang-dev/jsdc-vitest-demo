@@ -16,8 +16,10 @@ export default defineConfig({
     setupFiles: ['./vitest.setup.ts'],
     include: ['src/**/*.test.{ts,tsx}'],
     coverage: {
+      enabled: true,
       reporter: ['text', 'json', 'html'],
     },
+    silent: true, // Suppresses all output except for errors
     alias: {
       '@/': new URL('./src/', import.meta.url).pathname,
     },
